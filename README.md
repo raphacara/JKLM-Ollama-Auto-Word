@@ -8,7 +8,7 @@ Tampermonkey userscript + local Python server to play BombParty on `jklm.fun` wi
 - asks a local Ollama-backed server for a valid word
 - types and submits the word with configurable human-like timing
 - floating in-game UI for settings and status
-- `Longs` and `Composes` special modes
+- `Longs` and `Composes` special modes for big LLMs
 - fallback from special modes back to normal generation
 - optional auto re-join mode based on the `Rejoindre la partie` button
 
@@ -18,7 +18,7 @@ Tampermonkey userscript + local Python server to play BombParty on `jklm.fun` wi
 - `jklm_local_server.py`: local HTTP server on `127.0.0.1:8765`
 - `ollama_random_word.py`: Ollama prompts, generation, filtering, validation
 - `launch_jklm_server.command`: simple launcher for macOS
-- `jklm_settings.example.json`: example local config
+- `jklm_settings.json`: local config
 
 ## Requirements
 
