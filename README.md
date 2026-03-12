@@ -51,12 +51,6 @@ ollama serve
 
 ### 2. Create your local settings file
 
-Create a working config from the example:
-
-```bash
-cp jklm_settings.example.json jklm_settings.json
-```
-
 Example:
 
 ```json
