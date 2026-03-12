@@ -56,13 +56,15 @@ Example:
 ```json
 {
   "lexical_theme": "libre",
-  "model": "gemma3:12b",
+  "model": "gemma3:12b", # 
   "language": "fr",
   "human_mode": "humain rapide",
   "long_words": false,
   "compound_words": false
 }
 ```
+
+note : light models like gemma3:1b works well too. but you know, he bigger, the better ;)
 
 ### 3. Start the local server
 
@@ -289,18 +291,5 @@ The current implementation relies on the visible button text `Rejoindre la parti
 
 If JKLM changes that UI text or DOM structure, update `findJoinGameButton()` in `jklm_tampermonkey.user.js`.
 
-## Publish Notes
-
-This repository is ready to be public if you keep your local-only config in `jklm_settings.json`, which is ignored by `.gitignore`.
-
-Only commit:
-
-- source files
-- `README.md`
-- `jklm_settings.example.json`
-
-Do not commit:
-
-- local settings
-- virtual environments
-- generated caches
+# HAVE FUN WITH THIS VIRTUAL INTELLIGENCE THAT BEHAVES LIKE A HUMAN, AND WAY FUNNIER THAN A BASIC BOT. 
+# FEEL FREE TO TRY DIFFERENT OPEN SOURCE MODELS
