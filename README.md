@@ -56,7 +56,7 @@ Example:
 ```json
 {
   "lexical_theme": "libre",
-  "model": "gemma3:12b", # 
+  "model": "gemma3:12b", 
   "language": "fr",
   "human_mode": "humain rapide",
   "long_words": false,
