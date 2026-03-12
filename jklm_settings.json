@@ -1,0 +1,8 @@
+{
+  "lexical_theme": "libre",
+  "model": "gemma3:12b",
+  "language": "en",
+  "human_mode": "humain normal",
+  "long_words": false,
+  "compound_words": false
+}
