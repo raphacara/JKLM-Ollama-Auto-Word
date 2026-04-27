@@ -17,6 +17,9 @@ Tampermonkey userscript + local Python server to play BombParty on `jklm.fun` wi
 - `jklm_tampermonkey.user.js`: browser userscript
 - `jklm_local_server.py`: local HTTP server on `127.0.0.1:8765`
 - `ollama_random_word.py`: Ollama prompts, generation, filtering, validation
+- `jklm_control_app.swift`: native macOS control app source with Start / Stop buttons
+- `launch_jklm_control.command`: double-click launcher for the control app
+- `assets/jklm_bot_icon.svg`: source icon for the macOS app
 - `launch_jklm_server.command`: simple launcher for macOS
 - `jklm_settings.json`: local config
 
@@ -28,6 +31,34 @@ Tampermonkey userscript + local Python server to play BombParty on `jklm.fun` wi
 - Tampermonkey installed in your browser
 
 ## Quick Start
+
+### Recommended: use the local control app
+
+Double-click the desktop app:
+
+```text
+JKLM bot.app
+```
+
+Or launch it from the project folder:
+
+```bash
+launch_jklm_control.command
+```
+
+The desktop app is generated from `jklm_control_app.swift` and avoids Python/Tk for the UI.
+
+Then click `Start`.
+
+The app checks:
+
+- Ollama is installed and reachable
+- the model from `jklm_settings.json` exists
+- the JKLM local server is online
+
+When everything is ready, open a real JKLM room. When you are done, click `Stop` in the app to stop the JKLM server and, if enabled, Ollama.
+
+### Manual setup
 
 ### 1. Install or verify Ollama
 
