@@ -1,7 +1,7 @@
 import AppKit
 import Foundation
 
-let projectDir = "/Users/raphacara/VSCode/jklm"
+let projectDir = "\(NSHomeDirectory())/VSCode/jklm"
 let settingsPath = "\(projectDir)/jklm_settings.json"
 let serverScript = "\(projectDir)/jklm_local_server.py"
 let serverHealthURL = URL(string: "http://127.0.0.1:8765/health")!
