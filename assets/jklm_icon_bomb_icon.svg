@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="28%" r="76%">
+      <stop offset="0%" stop-color="#ffe66d"/>
+      <stop offset="42%" stop-color="#ff725e"/>
+      <stop offset="100%" stop-color="#23111a"/>
+    </radialGradient>
+    <linearGradient id="bomb" x1="278" y1="294" x2="738" y2="814" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2f3946"/>
+      <stop offset="62%" stop-color="#10151d"/>
+      <stop offset="100%" stop-color="#05070b"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff7d1"/>
+      <stop offset="100%" stop-color="#ffc857"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="28" stdDeviation="34" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <path d="M168 694c94 126 218 188 372 186 142-2 256-61 342-178-54 154-198 250-374 250-162 0-294-93-340-258z" fill="#120912" opacity="0.3"/>
+
+  <circle cx="520" cy="584" r="244" fill="url(#bomb)" filter="url(#shadow)"/>
+  <path d="M356 390c82-50 210-68 322-16" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" opacity="0.16"/>
+  <rect x="442" y="294" width="158" height="92" rx="34" fill="#151d27" stroke="#4b5968" stroke-width="22"/>
+  <path d="M588 318c88-80 206-79 282 0" fill="none" stroke="#1b222b" stroke-width="38" stroke-linecap="round"/>
+  <path d="M588 318c88-80 206-79 282 0" fill="none" stroke="#ffd166" stroke-width="18" stroke-linecap="round" stroke-dasharray="22 28"/>
+  <path d="M842 292l34-90 39 86 94 8-72 60 21 93-80-50-82 48 24-92-70-62z" fill="#fff05a" stroke="#ff6b35" stroke-width="18" stroke-linejoin="round"/>
+
+  <rect x="210" y="338" width="148" height="148" rx="34" fill="url(#tile)" stroke="#5b2a1d" stroke-width="14" transform="rotate(-16 284 412)"/>
+  <text x="284" y="450" text-anchor="middle" font-family="Avenir Next, Futura, sans-serif" font-size="86" font-weight="900" fill="#261313" transform="rotate(-16 284 412)">J</text>
+  <rect x="676" y="468" width="150" height="150" rx="34" fill="url(#tile)" stroke="#5b2a1d" stroke-width="14" transform="rotate(14 751 543)"/>
+  <text x="751" y="582" text-anchor="middle" font-family="Avenir Next, Futura, sans-serif" font-size="82" font-weight="900" fill="#261313" transform="rotate(14 751 543)">K</text>
+  <rect x="292" y="672" width="148" height="148" rx="34" fill="url(#tile)" stroke="#5b2a1d" stroke-width="14" transform="rotate(10 366 746)"/>
+  <text x="366" y="784" text-anchor="middle" font-family="Avenir Next, Futura, sans-serif" font-size="82" font-weight="900" fill="#261313" transform="rotate(10 366 746)">L</text>
+  <rect x="566" y="706" width="148" height="148" rx="34" fill="url(#tile)" stroke="#5b2a1d" stroke-width="14" transform="rotate(-10 640 780)"/>
+  <text x="640" y="818" text-anchor="middle" font-family="Avenir Next, Futura, sans-serif" font-size="82" font-weight="900" fill="#261313" transform="rotate(-10 640 780)">M</text>
+
+  <path d="M394 550c58 34 178 35 236 0" fill="none" stroke="#ffde59" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="420" cy="488" r="34" fill="#ffde59"/>
+  <circle cx="604" cy="488" r="34" fill="#ffde59"/>
+</svg>

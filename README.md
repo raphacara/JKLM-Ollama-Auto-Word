@@ -19,7 +19,8 @@ Tampermonkey userscript + local Python server to play BombParty on `jklm.fun` wi
 - `ollama_random_word.py`: Ollama prompts, generation, filtering, validation
 - `jklm_control_app.swift`: native macOS control app source with Start / Stop buttons
 - `launch_jklm_control.command`: double-click launcher for the control app
-- `assets/jklm_bot_icon.svg`: source icon for the macOS app
+- `assets/jklm_icon_bomb_icon.svg`: current source icon for the macOS app
+- `assets/jklm_bot_icon_v0.svg`: previous source icon kept as a backup
 - `launch_jklm_server.command`: simple launcher for macOS
 - `jklm_settings.json`: local config
 

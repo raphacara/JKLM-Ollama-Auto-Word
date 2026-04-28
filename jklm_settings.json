@@ -1,8 +1,8 @@
 {
-  "lexical_theme": "libre",
-  "model": "gemma3:12b",
+  "lexical_theme": "seduction",
+  "model": "gemma4:e4b",
   "language": "fr",
-  "human_mode": "humain rapide",
+  "human_mode": "humain lent",
   "long_words": false,
   "compound_words": false
 }
